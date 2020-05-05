@@ -1,3 +1,5 @@
+// Packages
+
 {
   "name": "examen_nodejs_m1_dev_hitema_04-2019",
   "version": "1.0.0",
@@ -6,7 +8,8 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "eslint": "./node_modules/.bin/eslint \"./**/*.js\""
+    "eslint": "./node_modules/.bin/eslint \"./*/.js\"",
+    "start:websocket": "node ./websocket/index.js"
   },
   "author": "",
   "license": "ISC",
